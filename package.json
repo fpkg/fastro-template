@@ -1,0 +1,23 @@
+{
+  "name": "fastro-template",
+  "version": "1.0.0",
+  "description": "fastro template",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node dist/main.js",
+    "dev": "NODE_ENV=development nodemon dist/main.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ynwd",
+  "license": "ISC",
+  "dependencies": {
+    "fastro": "^0.3.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.4",
+    "nodemon": "^2.0.3",
+    "typescript": "^3.8.3"
+  }
+}

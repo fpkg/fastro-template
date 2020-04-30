@@ -4,12 +4,17 @@
 ```
 .
 ├── src
+│   ├── __test__
+│   │   └── web.gateway.spec.ts
 │   ├── hello.controller.ts
 │   ├── hello.service.ts
 │   ├── main.ts
 │   ├── user.entity.ts
 │   └── web.gateway.ts
+├── jest.config.js
+├── package-lock.json
 ├── package.json
+├── readme.md
 ├── server.config.js
 └── tsconfig.json
 ```

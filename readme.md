@@ -5,7 +5,9 @@
 .
 ├── src
 │   ├── hello.controller.ts
-│   └── main.ts
+│   ├── hello.service.ts
+│   ├── main.ts
+│   └── user.entity.ts
 ├── package.json
 ├── server.config.js
 └── tsconfig.json

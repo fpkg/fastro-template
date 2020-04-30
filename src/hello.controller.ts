@@ -19,4 +19,11 @@ export class HelloController {
     const user = await this.service.getAllUser()
     reply.send(user)
   }
+
+  @Hook('onRequest')
+  async myHook (request: FastifyRequest, reply: FastifyReply<Http2ServerResponse>): Promise<void> {
+    // This hook will always be executed after the shared `onRequest` hooks
+    // Check this for detail: https://www.fastify.io/docs/latest/Hooks/#scope
+    console.log('request', request.headers)
+  }
 }

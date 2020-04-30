@@ -43,3 +43,8 @@ npm run dev
 ```
 npm run watch
 ```
+
+### Test
+```
+npm test
+```
